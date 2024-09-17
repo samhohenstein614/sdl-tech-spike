@@ -1,42 +1,73 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+h1 {
+    text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#gl {
+    color: orange;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#ad {
+    color: blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#gc {
+    color: green
 }
 
-.card {
-  padding: 2em;
+#logos {
+    display: flex;
+    justify-content: center;
 }
 
-.read-the-docs {
-  color: #888;
+#logos img {
+    width: 100px;
+    height: auto;
+    margin: 50px;
+}
+
+.gl_buttons {
+    background-color: orange;
+}
+
+.ad_buttons {
+    background-color: blue;
+}
+
+.gc_buttons {
+    background-color: green;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#buttons button {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#gl_dislike {
+    margin-right: 110px;
+}
+
+#gc_like {
+    margin-left: 110px;
+}
+
+#likes {
+    display: flex;
+    justify-content: center;
+}
+
+#likes p {
+    padding: 10px;
+}
+
+#gl_dislikes {
+    margin-right: 110px;
+}
+
+#gc_likes {
+    margin-left: 110px;
 }
