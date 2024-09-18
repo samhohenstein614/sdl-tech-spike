@@ -18,7 +18,7 @@ function App() {
     const handleAdLike = () => setAdLikes(ad_likes + 1);
     const handleAdDislike = () => setAdDislikes(ad_dislikes + 1);
     const handleGcLike = () => setGcLikes(gc_likes + 1);
-    const handleGcDislike = () => setGcDislikes(gc_dislikes + 1);
+    const handleGcDislike = () => setGcDislikes(gc_dislikes + 2);
 
     return (
         <>

@@ -1,0 +1,8 @@
+services:
+  website:
+    container_name: docker-react-spike
+    image: docker-react-spike:latest
+    build:
+      context: .
+    ports:
+      - 3000:80
